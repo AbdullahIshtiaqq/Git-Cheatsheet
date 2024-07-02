@@ -103,27 +103,27 @@ https://github.com/AbdullahIshtiaqq/git-bootcamp) and gives it a name "origin"
 
 **git config --global credential.username <username> :** Configure your GitHub username so you can get access to your Github repository
 
-**git push <remote_name> <branch> :** Upload a branch of your git version history to your remote repository  
+**git push <remote_name> < branch > :** Upload a branch of your git version history to your remote repository  
 &nbsp;&nbsp;&nbsp;&nbsp;**git branch :** Shows a list of available branches  
 &nbsp;&nbsp;&nbsp;&nbsp;**git log --all --graph :** Shows the branches visually in the history  
 &nbsp;&nbsp;&nbsp;&nbsp;**git push origin main :** Upload the branch "main" to the remote repository named "origin"
 
-**git push <remote_name> <branch> --set-upstream :** Sets up a shortcut for this
+**git push <remote_name> < branch > --set-upstream :** Sets up a shortcut for this
 branch and remote repository  
 &nbsp;&nbsp;&nbsp;&nbsp;**git push origin main --set-upstream :** Next time you are on the main branch and you run git push, it will automatically push the main branch to origin
 
-**git push <remote_name> <branch> -f :** Force-push the branch to the remote repository (it will overwrite what's on the remote repository)
+**git push <remote_name> < branch > -f :** Force-push the branch to the remote repository (it will overwrite what's on the remote repository)
 
 ## Downloading code from GitHub
 
-**git clone <url> :** Download a remote repository from a url  
+**git clone < URL > :** Download a remote repository from a url  
 &nbsp;&nbsp;&nbsp;&nbsp;**git clone https://github.com/AbdullahIshtiaqq/git-bootcamp**
 
-**git clone <url> <folder_name> :** Download the repository and give it a different folder name
+**git clone < URL > <folder_name> :** Download the repository and give it a different folder name
 
 **git fetch :** Updates all remote tracking branches. Remote tracking branches (like origin/main) show what the branch looks like in the remote repository
 
-**git pull <remote_name> <branch> :** Update the local branch with any updates from
+**git pull <remote_name> < branch > :** Update the local branch with any updates from
 the remote repository (on GitHub)
 
 &nbsp;&nbsp;&nbsp;&nbsp;**git pull origin main :** Downloads any new commits from the main branch on origin, and updates the local main branch with those new commits  
